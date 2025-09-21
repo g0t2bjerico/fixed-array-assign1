@@ -7,6 +7,7 @@ public class Main {
 		Scanner kbd = new Scanner(System.in);
 		FixedArray bookArr = new FixedArray();
 		GenreTag genreArr = new GenreTag();
+		BookList listArr = new BookList();
 
 		for(int i = 0; i < 5; i++) {
 			System.out.println("Please enter your book title: ");
